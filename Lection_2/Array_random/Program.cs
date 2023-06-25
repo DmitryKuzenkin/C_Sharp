@@ -1,10 +1,12 @@
-﻿void FillArray(int[] collection)
+﻿using System.Linq;
+
+void FillArray(int[] collection)
 {
     int length = collection.Length;
     int index = 0;
     while (index < length)
     {
-       collection[index] = new Random().Next(1, 20);
+       collection[index] = new Random().Next(1, 100);
         index++;
     }  
 }
@@ -41,11 +43,13 @@ int indexOf(int[] collection, int find)
 int[] array = new int[100];
 FillArray(array);
 printArray(array);
-
-Console.WriteLine();
-Console.WriteLine();
-Console.WriteLine();
-
 int pos = indexOf(array, 11);
 
-Console.WriteLine (pos);
+
+Console.WriteLine();
+
+Console.WriteLine ("позиция " + pos);
+
+double result = array.Average();
+
+Console.WriteLine("Среднее " + result);
