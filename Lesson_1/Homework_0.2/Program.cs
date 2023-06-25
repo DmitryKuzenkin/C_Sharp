@@ -2,12 +2,14 @@
 //a = 5; b = 7 -> max = 7
 //a = 2 b = 10 -> max = 10
 //a = -9 b = -3 -> max = -3
-
+Console.Write ("Insert 1st number");
 double a = double.Parse(Console.ReadLine()!);
+Console.Write ("Insert 2nd number");
 double b = double.Parse(Console.ReadLine()!);
 
 if (a>b)
- Console.Write (a+">"+b);
+     Console.Write (a+">"+b);
 else if (a==b)
-Console.Write (a+"="+b);
-else Console.Write (a+"<"+b);
+    Console.Write (a+"="+b);
+else 
+    Console.Write (a+"<"+b);
