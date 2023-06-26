@@ -27,7 +27,7 @@ int Max(int arg1, int arg2, int arg3)
         result = arg3;
     return result;
 }
-/*int a1 = 54;
+int a1 = 54;
 int b1 = 45;
 int c1 = 73;
 int a2 = 22;
@@ -35,7 +35,7 @@ int b2 = 5;
 int c2 = 668;
 int a3 = 54;
 int b3 = 6756756;
-int c3 = 57;*/
+int c3 = 57;
 
 int[] array = { 1, 2, 67, 54, 6, 7, 8, 456, 41436, 346, 35 };
 

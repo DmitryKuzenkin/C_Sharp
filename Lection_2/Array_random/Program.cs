@@ -1,5 +1,4 @@
-﻿using System.Linq;
-
+﻿
 void FillArray(int[] collection)
 {
     int length = collection.Length;
@@ -52,4 +51,5 @@ Console.WriteLine ("позиция " + pos);
 
 double result = array.Average();
 
-Console.WriteLine("Среднее " + result);
+Console.WriteLine("Среднее " + "\t" + result);
+
