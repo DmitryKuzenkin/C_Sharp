@@ -16,3 +16,5 @@ int RNum = new Random().Next (10,100);
 Console.WriteLine("" + RNum);
 int result = Max(RNum);
 Console.WriteLine("" + result);
+
+
