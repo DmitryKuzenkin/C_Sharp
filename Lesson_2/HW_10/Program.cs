@@ -1,6 +1,6 @@
 ﻿void Num2 (int num)
 {
-    if (10 <= num && num < 1000)
+    if ( num < 1000)
     {
         num = (num / 10) % 10;
         Console.WriteLine ("2 цифра числа: " + num);
@@ -10,5 +10,6 @@
         Console.WriteLine ("Число не трехзначное");
     }
 }
+Console.WriteLine("Insert your number")
 int NumA = int.Parse(Console.ReadLine());
 Num2(NumA);
