@@ -3,7 +3,7 @@
    
     if ( num >= 100 )
     {
-        while (num / 10 > 100 )
+        while (num  > 999 )
         {
             num = num / 10;
         }
