@@ -6,11 +6,20 @@ if (a == 0 )
  Console.WriteLine("1");
  Console.WriteLine("0");
 }
-else {
+else if (a<0) 
+{
 while (Math.Abs(count) <= Math.Abs(a) )
         {
             Console.WriteLine(Math.Pow(count, 3));
              count--;
+        }
+}
+else if (a>0) 
+{
+while (Math.Abs(count) <= Math.Abs(a) )
+        {
+            Console.WriteLine(Math.Pow(count, 3));
+             count++;
         }
 }
 
