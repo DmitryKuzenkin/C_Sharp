@@ -15,6 +15,6 @@
         Console.WriteLine ("Третьей цифры нет");
     }
 }
-Console.WriteLine("Insert your number")
+Console.WriteLine("Insert your number");
 int NumA = int.Parse(Console.ReadLine());
 Num2(NumA);
