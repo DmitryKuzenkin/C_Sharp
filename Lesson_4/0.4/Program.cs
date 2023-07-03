@@ -3,7 +3,6 @@
     for (int i = 0; i < collection.Length; i++)
     {
        collection[i] = new Random().Next(0,2);
-        i++;
     }  
 }
 void printArray(int[] col)
