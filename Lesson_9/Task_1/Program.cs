@@ -1,9 +1,20 @@
 ﻿void EvenNum(int M, int N)
 {
-    if (N < M) return;
-    EvenNum(M, N - 1);
-    if (N % 2 == 0)
-    Console.Write($"{N}, ");
+    if (N < M)
+    return;
+    if (M % 2 == 0)
+    {
+        Console.Write($"{M}, ");
+    }
+    EvenNum(M+1, N);
+    
 }
 
-EvenNum(4, 8);
+Console.Write("M->");
+int M = int.Parse(Console.ReadLine()!);
+Console.Write("N->");
+int N = int.Parse(Console.ReadLine()!);
+
+EvenNum( M, N);
+
+
